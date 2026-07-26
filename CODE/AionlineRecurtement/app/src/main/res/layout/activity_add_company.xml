@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AddCompany">
+    <ProgressBar
+        style="@style/progress"
+        android:id="@+id/progrees2" />
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:background="@drawable/curve"
+        android:backgroundTint="@color/black"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/cname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+           android:backgroundTint="@color/white"
+            android:background="@drawable/curve"
+            android:hint="Company Name"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/cemail"
+            style="@style/edittext"
+            android:hint="Email-id"
+            android:inputType="textEmailAddress"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/cpassword"
+            style="@style/edittext"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/mobilenumber"
+            style="@style/edittext"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/address"
+            style="@style/edittext"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/curve"
+            android:backgroundTint="#81FFFFFF"
+            android:text="Create"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>

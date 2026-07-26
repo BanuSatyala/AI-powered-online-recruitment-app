@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Company.CompanyActivity">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/curve"
+        android:id="@+id/addjobs"
+        android:backgroundTint="#000"
+        android:text="Add Jobs"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/viewapplied"
+        android:background="@drawable/curve"
+        android:backgroundTint="#000"
+        android:text="View Applied"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/logout1"
+        android:background="@drawable/curve"
+        android:backgroundTint="#000"
+        android:text="Log out"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

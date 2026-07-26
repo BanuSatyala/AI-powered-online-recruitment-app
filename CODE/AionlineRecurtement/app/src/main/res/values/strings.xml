@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Ai online Recurtement</string>
+    <string name="check"><u>Check Your Resume</u></string>
+    <string name="closes">close</string>
+    <string name="opens">open</string>
+    <string name="view_doc"><u>View Doc</u></string>
+    <string name="view_job_details"><u>Job Details</u></string>
+    <string name="view_applicant"><u>View Applicant</u></string>
+    <string name="resume"><u>Resume</u></string>
+
+    <style name="progress">
+        <item name="android:padding">150dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="edite">
+
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:background">@drawable/curve</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+
+    <style name="edittext">
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:background">@drawable/curve</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+</resources>
